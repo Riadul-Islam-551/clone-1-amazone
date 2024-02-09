@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* ........nav search.......... */
+
+.search_type{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 10%;
+}
+.nav_search_bar{
+    height: 100%;
+    width: 80%;
+}
+.nav_search_logo{
+    border-style: none;
+    height: 100%;
+    width: 10%;
+}
+
+/* .........nav cart......... */
+.nav_cart{
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 15px;
+}
+
+/* ..........hero section......... */
+
+/* hero section text   */
+.hero_section p{
+    padding-left: 10px;
+}
+.hero_section p a{
+    text-decoration: none;
+    color: #126f3d;
+    font-size: .85rem;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+/* ........shop....... */
+
+/* ............first row......... */
+.box{
+    /* border: 1px solid red; */
+    width: 23%;
+    height: 450px;
+    margin: 20px 10px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+.box h2{
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.box_image_1{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 80%;
+    margin-left: 14.5px;
+    margin-top: 10px;
+}
+.box p{
+    font-size: .85rem;
+    color:#126f3d ;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* ...........second row............ */
+.box_image_2{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 80%;
+    margin-left: 13px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box4_1{
+    height: 40%;
+    width: 40%;
+    /* border: 1px solid red; */
+    margin: 12px;
+}
+.box4_1 p{
+    color: black;
+    margin: 5px;
+    font-size: .75rem;
+    cursor: pointer;
+}
+.box4_1 p:hover{
+    text-decoration: none;
+}
+
+/* ........copy right....... */
+
+.copy_right_deals{
+    height: 450px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copy_right_links{
+    /* border: 1px solid red; */
+    height: 80px;
+    width: 100px;
+    margin: 4px 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,364 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    height: 40px;
+    background-color: #144d5d;
+}
+
+/* ......nav logo.... */
+.nav_logo {
+    width: 70px;
+    height: 24px;
+    margin-left: 5px;
+    margin-top:10px ;
+}
+.nav_logo_img{
+    width: 60px;
+    height: 19px;
+}
+
+/* .....nav location...... */
+
+.nav_location{
+    height: 30px;
+    width: 100px;
+    margin-left: 13px;
+}
+.location_logo{
+    margin-top: 7px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.country_selection{
+    height: 17px;
+    font-size: .65rem;
+    border: none;
+    background-color: #babfbd;
+    border-radius: 3px;
+}
+.nav_location h5{
+   font-size: .60rem;
+}
+
+/* .......nav search...... */
+.nav_search{
+    height: 30px;
+    margin-left: 15px;
+    width: 57%;
+}
+.nav_search:hover{
+    box-shadow:none;
+}
+
+.search_type{
+    width: 15%;
+    font-size: .75rem;
+    color: rgb(101, 101, 101);
+}
+.nav_search_bar{
+    width: none;
+}
+.nav_search_bar_details{
+    font-size: .70rem;
+    letter-spacing: 0px;
+}
+.nav_search_logo{
+    width: 15%;
+    font-size: .75rem;
+}
+
+/* ........nav sign....... */
+.nav_sign{
+    height: 30px;
+    width: 125px;
+    margin-left: 12px;
+}
+.nav_sign a{
+    text-decoration: none;
+    color: white;
+}
+.nav_sign h5{
+    font-size: 0.55rem;
+    font-weight: lighter;
+}
+.nav_sign h1{
+    font-size: .55rem;
+    font-weight: 600;
+}
+
+/* .............nav returns............ */
+.nav_returns{
+    height: 30px;
+    width: 90px;
+    margin-left: 9px;
+}
+.nav_returns h5{
+    font-size: 0.55rem;
+    margin-left: -4px;
+}
+.nav_returns h1{
+    font-size: .60rem;
+    font-weight: 600;
+}
+
+/* .........nav cart......... */
+
+.nav_cart{
+    height: 30px;
+    width: 90px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.nav_cart_logo{
+    font-size: 15px;
+    color: white;
+}
+.nav_cart p{
+    font-size: .55rem;
+    margin-bottom: 7px;
+}
+
+/* .........nav details.......... */
+
+.nav_details{
+    height: 32px;
+    background-color:#256f84 ;
+}
+.nav_links{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav_links li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links li a{
+    margin-left: 2px;
+    font-size: .50rem;
+    
+}
+.menue i{
+    font-size: .55rem;
+}
+.menue p{
+    font-size: .55rem;
+    font-weight: 900;
+}
+
+.border1:hover{
+    color: none;
+    text-shadow: none;
+    transition: none;
+}
+.nav_details p1{
+    width: 30%;
+    font-size: .55rem;
+    margin-left: 130px;
+    letter-spacing: 0px;
+}
+
+/* ..........hero_section......... */
+ 
+       /* hero background image  */
+.hero_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecededef;
+}
+.hero_section_background{
+    height: 210px;
+}
+
+/* hero section text   */
+.hero_section p{
+    font-size: .55rem;
+    background-color: #a9e4f4;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.hero_section p a{
+    text-decoration: none;
+    color: #144d5d;
+    font-size: .55rem;
+}  
+
+/* ........shop....... */
+/* .....first row..... */
+
+.box{
+    width: 29%;
+    height: 250px;
+    margin: 10px 5px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+.box h2{
+    font-size: .65rem;
+    color: #1598bc;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box_image_1{
+    width: 90%;
+    height: 75%;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+.box p{
+    font-size: .55rem;
+    color:#1598bc ;
+    padding: 5px 0px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+/* ......second row...... */
+.box_image_2{
+    width: 90%;
+    height: 75%;
+    margin-left: 9px;
+}
+.box4_1{
+    width: 42%;
+    margin: 6px;
+}
+.box4_1 p{
+    color: black;
+    margin: 0px 0px 0px 5px;
+    font-size: .50rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+/* .......footer....... */
+
+/* footer sign */
+.footer_sign{
+    border: 0.5px solid #e8e9e9;
+    border-radius: 5px;
+    height: 100px;
+    margin: 13px 0px;
+}
+.footer_sign p1{
+    margin-top: 30px;
+    font-size: .55rem;
+    letter-spacing: .5px;
+}
+.footer_sign button{
+    margin-top: 10px;
+    height: 20px;
+    width: 90px;
+    border-radius: 5px;
+    margin-left: 245px;
+    font-size: .55rem;
+}
+.footer_sign p2{
+    margin-top: 3px;
+    font-size: .65rem;
+}
+.footer_sign p2 a{
+    color: #1598bc;
+}
+
+/* back to top section */
+
+.back_to_top{
+    height: 32px;
+}
+.back_to_top p{
+    font-size: .55rem;
+    letter-spacing: .5px;
+}
+
+/* footer link */
+.footer_link{
+    height: 320px;
+    padding: 30px 10px 0px 10px ;
+}
+.footer_link_part{
+    height: 260px;
+    width: 250px;
+    margin: 0px 7px 30px 7px;
+}
+.footer_link_part h2{
+    font-size: .75rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.footer_link_part p{
+    font-size: .55rem;
+    line-height: 20px;
+    margin-left: 0px;
+}
+.footer_link_part p:hover{
+    text-decoration: underline;
+}
+
+/* ......footer logo...... */
+.footer_logo{
+    height: 43px;
+}
+.footer_logo img{
+    width: 43px;
+}
+
+/* .......copy right...... */
+.copy_right{
+    /* border: 1px solid red; */
+    height: 460px;
+    width: 100%;
+    background-color: #171f1b ;
+}
+
+/* copy right top */
+.copy_right_top{
+    height: 390px;
+}
+.copy_right_deals{
+    height: 390px;
+    width: 90%;
+}
+.copy_right_links{
+    height: 30px;
+    width: 100px;
+    margin: 10px 10px;
+}
+.copy_right_links h6{
+    font-size: .55rem;
+    font-weight: 600;
+}
+.copy_right_links p{
+    font-size: .55rem;
+}
+.copy_right_links h6:hover{
+    text-decoration: none;
+}
+.copy_right_links p:hover{
+    text-decoration: none;
+}
+
+/* copy right bottom */
+.copy_right_bottom{
+    height: 60px;
+    margin-top: 10px;
+}
+.copy_right_bottom_conditions h6{
+    font-size: .60rem;
+}
+.copy_right_bottom_conditions h6:hover{
+    text-decoration: none;
+}
+.copy_right_details{
+    font-size: .55rem;
+}

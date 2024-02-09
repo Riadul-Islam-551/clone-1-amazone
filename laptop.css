@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* .......nav........ */
+.nav{
+    /* border: 1px solid red; */
+    height: 45px;
+    background-color: #09386b;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+/* ........nav logo....... */
+.nav_logo {
+    width: 110px;
+    height: 30px;
+    margin-left: 7px;
+}
+.nav_logo_img{
+    width: 90px;
+    height:30px;
+}
+/* ..........nav location.......... */
+
+.nav_location{
+    width: 125px;
+    height: 30px;
+}
+.location_logo{
+    margin-top: 7px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.nav_location h1{
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav_location h5{
+   font-size: .70rem;
+}
+/* ........nav search.......... */
+
+.nav_search{
+    height: 30px;
+    margin-left: 15px;
+}
+.nav_search:hover{
+    box-shadow: 2px 2px 5px black;
+}
+
+.search_type{
+    width: 10%;
+    font-size: .70rem;
+    font-weight: 900;
+}
+.nav_search_bar{
+    height: 100%;
+    width: 80%;
+}
+.nav_search_bar_details{
+    font-size: .65rem;
+}
+.nav_search_logo{
+    /* border: 1px solid red; */
+    border-style: none;
+    height: 100%;
+    width: 10%;
+    font-size: .70rem;
+}
+/* ...........nav sign......... */
+.nav_sign{
+    height: 30px;
+    width: 125px;
+}
+.nav_sign a{
+    text-decoration: none;
+    color: white;
+}
+.nav_sign h5{
+    font-size: 0.70rem;
+    font-weight: lighter;
+}
+.nav_sign h1{
+    font-size: .75rem;
+    font-weight: 600;
+}
+/* .............nav returns............ */
+.nav_returns{
+    height: 30px;
+    width: 75px;
+}
+.nav_returns h5{
+    font-size: 0.70rem;
+    font-weight: lighter;
+    margin-left: -5px;
+}
+.nav_returns h1{
+    font-size: .75rem;
+    font-weight: 600;
+}
+/* .........nav cart......... */
+.nav_cart{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 90px;
+    margin-right: 7px;
+}
+.nav_cart_logo{
+    /* border: 1px solid red; */
+    font-size: 17px;
+    color: white;
+}
+.nav_cart p{
+    /* border: 1px solid red; */
+    font-size: .75rem;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+/* .........nav details.......... */
+.nav_details{
+    width: 100%;
+    height: 35px;
+    background-color:#386697 ;
+}
+.nav_links{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav_links li a{
+    margin: 0px 20px;
+    cursor: pointer;
+    font-size: .70rem;
+    font-weight: 600;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menue i{
+    font-size: .75rem;
+    /* padding-right: 5px; */
+    margin-right: 5px;
+}
+.menue p{
+    font-size: .75rem;
+    font-weight: 900;
+}
+
+.border1:hover{
+    color: #e8eae8;
+    text-shadow: 1px 1px 2px black;
+    transition: 0.3s;
+}
+.nav_details p1{
+    /* border: 1px solid red; */
+    color: white;
+    font-size: .75rem;
+    font-weight: 600;
+    margin-left: 0px;
+    letter-spacing: 1px;
+    height: 26px;
+    width: 30% ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+.border2:hover{
+    text-shadow: 2px 2px 2px black;
+    transition: .5s;
+}
+
+/* ..........hero_section......... */
+ 
+/* hero background image  */
+
+.hero_section_background{
+    width: 95%;
+    height: 300px;
+}
+/* hero section text   */
+.hero_section p{
+    font-size: .70rem;
+    background-color: white;
+    height: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.hero_section p a{
+    text-decoration: none;
+    color: #215995;
+    font-size: .70rem;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+/* ..........shop........... */
+/* ............first row......... */
+.box{
+    width: 22%;
+    height: 300px;
+    margin: 20px 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.box h2{
+    font-size: .80rem;
+    color: rgb(50, 50, 50);
+    margin-top: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.box_image_1{
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 80%;
+    margin-left: 5px;
+    margin-top: 10px;
+   
+}
+
+.box p{
+    font-size: .75rem;
+    color:#215995 ;
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.box p:hover{
+    text-decoration: underline;
+}
+
+/* ...........second row............ */
+.box_image_2{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 80%;
+    margin-left: 9px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box4_1{
+    height: 45%;
+    width: 45%;
+    /* border: 1px solid red; */
+    margin: 4px;
+}
+.box4_1 p{
+    color: black;
+    margin: 0px;
+    font-size: .65rem;
+    cursor: pointer;
+}
+.box4_1 p:hover{
+    text-decoration: none;
+}
+
+/* ........footer....... */
+
+/* footer sign */
+.footer_sign{
+    border: 0.5px solid #e4e4e4;
+    border-radius: 5px;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    margin: 15px 0px;
+}
+.footer_sign p1{
+    display: block;
+    margin-top: 40px;
+    font-size: .75rem;
+    color: #282828;
+    letter-spacing: .5px;
+}
+.footer_sign button{
+    margin-top: 13px;
+    height: 21px;
+    width: 222px;
+    margin-left: 376px;
+    border-radius: 5px;
+    font-size: .75rem;
+}
+.footer_sign p2{
+    margin-top: 5px;
+    display: block;
+    font-size: .75rem;
+    color: #575757 ;
+}
+.footer_sign p2 a{
+    margin-left: 3px;
+    text-decoration: none;
+    color: #215995;
+}
+.footer_sign p2 a:hover{
+    color: #be4b21;
+}
+/* back to top section */
+.back_to_top{
+    height: 42px;
+    width: 100%;
+}
+/* footer link */
+.footer_link{
+    height: 350px;
+    width: 100%;
+}
+.footer_link_part{
+    height: 270px;
+    width: 170px;
+    margin: 7px 17px 30px 17px;
+    color: white;
+    cursor: pointer;
+}
+.footer_link_part h2{
+    font-size: .90rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.footer_link_part p{
+    font-size: .70rem;
+    line-height: 25px;
+    margin-left: 0px;
+    color: rgb(218, 216, 216);
+    font-weight: 600;
+}
+/* ......footer logo...... */
+.footer_logo{
+    background-color: #242e29;
+    height: 80px;
+    width: 100%;
+}
+.footer_logo img{
+    width: 57px;
+}
+
+/* .......copy right...... */
+.copy_right{
+    height: 570px;
+    width: 100%;
+    background-color: #171f1b ;
+}
+
+/* copy right top */
+.copy_right_top{
+    height: 490px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copy_right_deals{
+    height: 490px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copy_right_links{
+    height: 60px;
+    width: 100px;
+    margin: 4px 30px;
+    cursor: pointer;
+}
+.copy_right_links h6{
+    font-size: .65rem;
+    font-weight: 600;
+    color: white;
+}
+.copy_right_links p{
+    font-size: .65rem;
+    color: rgb(189, 189, 189);
+}
+.copy_right_links h6:hover{
+    text-decoration: underline;
+}
+.copy_right_links p:hover{
+    text-decoration: underline;
+}
+/* copy right bottom */
+.copy_right_bottom{
+    height: 80px;
+    width: 100%;
+    color: white;
+}
+.copy_right_bottom_conditions h6{
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin: 15px 10px 0px 10px;
+    font-size: .75rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.copy_right_bottom_conditions h6:hover{
+    text-decoration: underline;
+}
+.copy_right_details{
+    font-size: .60rem;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

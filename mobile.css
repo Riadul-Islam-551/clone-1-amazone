@@ -1,0 +1,377 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    height: 30px;
+    background-color: #683216;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+}
+
+/* ........nav logo......... */
+.nav_logo {
+    width: 60px;
+    height: 20px;
+    margin-left: 7px;
+}
+.nav_logo_img{
+    width: 60px;
+    height:20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.border:hover{
+    border: none;
+}
+
+/* .........nav location........... */
+
+.nav_location{
+    width: 98px;
+    height: 24px;
+    margin-left: 10px;
+}
+.location_logo{
+    margin-top: px;
+    margin-left:px;
+    font-size: 7px;
+}
+.country_selection{
+    height: 17px;
+    font-size: .65rem;
+    border: none;
+    background-color: #babfbd;
+    border-radius: 3px;
+}
+.nav_location h5{
+   font-size: .50rem;
+   margin-left: -3px;
+}
+
+/* ..........nav search........... */
+
+.nav_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 51%;
+    height: 24px;
+    margin-left: 20px;
+}
+.nav_search:hover{
+    box-shadow: 0px 0px 0px black;
+}
+.search_type{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 10%;
+    font-size: .55rem;
+    color: rgb(97, 96, 96);
+    background-color: #f5b08d;
+    display: none;
+}
+.nav_search_bar_details{
+    font-size: .55rem;
+    border-top-left-radius:3px ;
+    border-bottom-left-radius:3px ;
+}
+.nav_search_logo{
+    width: 10%;
+    font-size: 9px;
+}
+
+/* ..........nav sign........... */
+
+.nav_sign{
+    height: 24px;
+    width: 130px;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav_sign a{
+    text-decoration: none;
+    color: white;
+}
+.nav_sign h5{
+    font-size: 0.55rem;
+    font-weight: 600;
+}
+.nav_sign h1{
+    display: none;
+}
+
+/* ........nav returns.......... */
+
+.nav_returns{
+    height: 24px;
+    margin-left: 10px;
+}
+.nav_returns h5{
+    font-size: 0.55rem;
+    font-weight: lighter;
+}
+.nav_returns h1{
+    font-size: .55rem;
+    font-weight: 600;
+    margin-left: -8px;
+}
+
+/* .......nav cart....... */
+
+.nav_cart{
+    height: 24px;
+    margin:0px  9px;
+}
+.nav_cart_logo{
+    font-size: 13px;
+}
+.nav_cart p{
+    font-size: .55rem;
+    font-weight: 600;
+    margin-top: -.5px;
+}
+
+/* .......nav details....... */
+
+.nav_details{
+    height: 28px;
+    background-color:#a25128 ;
+}
+.nav_links{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav_links li{
+    margin-bottom: 5px;
+    margin-left: 0px;
+    height: 20px;
+}
+.nav_links li a{
+    font-size: .45rem;
+    font-weight: 600;
+    height: 20px;
+}
+.menue i{
+    font-size: .45rem;
+    padding-top: 0px;
+}
+.menue p{
+    font-size: .45rem;
+    font-weight: 600;
+}
+
+.border1:hover{
+    color: white;
+    text-shadow: 1px 1px 2px #a25128;
+}
+.nav_details p1{
+    font-size: .45rem;
+    margin-left: 0px;
+    letter-spacing: 0px;
+    margin-bottom: 2px;
+    width: 25%;
+}
+
+/* ......hero section...... */
+
+/* hero background image */
+
+.hero_section_background{
+    height: 200px;
+}
+
+/*hero section text*/
+
+.hero_section p{
+    font-size: .55rem;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.hero_section p a{
+    text-decoration: none;
+    color: #a25128;
+    font-size: .55rem;
+}
+
+/* ........shop....... */
+
+/* .......first row........ */
+
+.box{
+    width: 28%;
+    height: 270px;
+    margin: 15px 7px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+.box h2{
+    font-size: .55rem;
+    color: rgb(50, 50, 50);
+    margin-top: 10px;
+    margin-left: px;
+}
+.box_image_1{
+    width: 90%;
+    height: 80%;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+.box p{
+    font-size: .55rem;
+    color:#a25128 ;
+    padding: 0px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+/* ............secod row........ */
+
+.box_image_2{
+    width: 90%;
+    height: 80%;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+.box4_1{
+    margin: 3px;
+}
+.box4_1 p{
+    color: black;
+    margin: 0px 0px 0px 4px;
+    font-size: .50rem;
+    cursor: pointer;
+}
+
+/* ..........footer....... */
+
+/* footer sign */
+.footer_sign{
+    border-radius: 3px;
+    height: 70px;
+    margin: 10px 0px;
+}
+.footer_sign p1{
+    display: none;
+}
+.footer_sign button{
+    margin-top: 19px;
+    height: 16px;
+    width: 150px;
+    margin-left: 215px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+.footer_sign p2{
+    margin-top: 10px;
+    font-size: .55rem;
+}
+.footer_sign p2 a{
+    margin-left: 3px;
+    color: #be4b21;
+}
+.footer_sign p2 a:hover{
+    color: #126f3d;
+}
+
+/* back to top section */
+.back_to_top{
+    height: 32px;
+}
+.back_to_top p{
+    font-size: .60rem;
+}
+
+/* footer link */
+.footer_link{
+    height: 350px;
+}
+.footer_link_part{
+    height: 220px;
+    padding-top: 0px;
+    margin: -10px 2px 0px 2px;
+}
+.footer_link_part h2{
+    font-size: .65rem;
+    margin-bottom: 10px;
+}
+.footer_link_part p{
+    font-size: .55rem;
+    line-height: 15px;
+}
+.footer_link_part p:hover{
+    text-decoration: none;
+}
+
+/* footer logo */
+.footer_logo{
+    background-color: #384941;
+    height: 53px;
+}
+.footer_logo img{
+    width: 43px;
+}
+
+/* ............copy right ........... */
+/* copy right top */
+.copy_right{
+    height: 900px;
+}
+.copy_right_top{
+    height: 700px;
+    padding-top: 20px;
+}
+.copy_right_deals{
+    height: 700px;
+    width: 100%;
+}
+.copy_right_links{
+    height: 47px;
+    width: 100px;
+}
+.copy_right_links h6{
+    font-size: .55rem;
+    font-weight: 600;
+    color: white;
+}
+.copy_right_links p{
+    font-size: .55rem;
+    margin-top: 4px;
+}
+.copy_right_links h6:hover{
+    text-decoration: none;
+}
+.copy_right_links p:hover{
+    text-decoration: none;
+}
+
+/* copy right bottom */
+.copy_right_bottom{
+    margin-top: 75px;
+    height: 65px;
+}
+.copy_right_bottom_conditions h6{
+    font-size: .65rem;
+}
+.copy_right_bottom_conditions h6:hover{
+    text-decoration: underline;
+}
+.copy_right_details{
+    font-size: .70rem;
+}
+
+
+
+
+
+/* ............finish........ */
